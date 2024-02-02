@@ -1,13 +1,201 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* *{
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+    display: none;
+  } */
+.navbars{
+    background-color: rgb(25, 25, 27);
+}
+.navbars .navbars_brand{
+    color: #fff;
+    padding-top: 3%;
+    font-size: 22px;
+    font-weight: 700;
+}
+.navbars .navbars_brand:hover{
+    color: rgb(250, 74, 43);
+}
+ .navs .linkss {
+    color: #fff;
+    padding-top: 3%;
+    font-size: 16px;
+}
+.navs .linkss:hover{
+    color: rgb(250, 74, 43);
+}
+.home_container{
+    background-image: linear-gradient(rgb(25, 25, 27), rgb(25, 25, 27));
+    color: #fff;
+    padding-top: 7%;
+    margin-bottom: 8%;
+    padding-bottom: 7%;
+}
+.home_container .home_button{
+    background-color: rgb(250, 74, 43);
+    border-color: rgb(250, 74, 43);
+    color: #fff;
+}
+.home_container .home_button:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+.home_container p{
+    color: silver;
+}
+.home_container .home_col h1{
+    margin-bottom: 30px;
+}
+.home_container .home_col h4{
+    margin-bottom: 15%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* about page */
+.about_container{
+    margin-bottom: 7%;
+}
+.about_container h4{
+    color: rgb(25, 25, 27);
+    font-weight: 700;
+}
+.about_container h6{
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: rgb(250, 74, 43);
+
+}
+.about_container p {
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(104, 103, 103);
+}
+.abt_container .abt_cards{
+    margin-top: 45px;
+    box-shadow: 0 5px 10px rgba(126, 125, 125, 0.4);
+    border: transparent;
+}
+.about_container .about_div{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.about_container .progressbar h5{
+    font-size: 14px;
+    color: rgb(48, 48, 49)
+}
+.about_p{
+font-weight: 500;
+}
+.progressbar{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.progressbar .bar{
+    background-color: rgb(250, 74, 43);
+    height: 8px;
+}
+.progressbar .bars{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* service page */
+.cards_container{
+    background-color: rgb(240, 240, 240);
+    padding-top: 5%;
+    margin-bottom: 70px;
+}
+.cards_container .card-fluid{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 15px;
+    line-height: 30px;
+}
+.cards_container .card{
+    border: transparent;
+    text-align: center;
+    
+}
+
+.cards_card .cards_title{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* portfolio */
+.port{
+    margin-top: 6%;
+    margin-bottom: 9%;
+}
+.port .port_row{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.port .port_row h1{
+    color: rgb(250, 74, 43);
+    text-align: center;
+}
+.port h5{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.nav .portfolio{
+    background-color: silver;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* testimonial */
+.testimony h4 {
+    text-align: center;
+    color: rgb(25, 25, 27);
+    font-weight: 700;
+  }
+  .testimony .testimony_star {
+    color: rgb(250, 74, 43);
+  }
+  .testimony .card-fluid {
+    line-height: 35px;
+  }
+  
+  /* team */
+  .team_container{
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .team_container h4{
+    color: rgb(25, 25, 27);
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .team_container p{
+    color: rgb(132, 132, 133);
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* contact */
+  .contacts{
+    text-align: center;
+    margin-bottom: 17%;
+  }
+  .contacts h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .contacts h5{
+    color: rgb(250, 74, 43);
+  }
+
+/* footer */
+.footers{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(25, 25, 27);
+    text-align: center;
+    color: silver;
 }
