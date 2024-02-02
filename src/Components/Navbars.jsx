@@ -14,7 +14,7 @@ const Navbars = () => {
           <Col>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="navs">
+              <Nav className="navs" variant="underline" defaultActiveKey="/">
                 <Nav.Link href="/" className="linkss mx-2">
                   Home
                 </Nav.Link>
